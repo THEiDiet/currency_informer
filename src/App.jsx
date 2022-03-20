@@ -27,7 +27,7 @@ const App = () => {
   useEffect(() => {
     if (!sessionStorage.getItem(SessionStorage.CurrencyKey)) {
       getLastTenCurrencyList(
-        process.env.REACT_APP_BASE_URL || 'https://www.cbr-xml-daily.ru/daily_json.js',
+        'https://www.cbr-xml-daily.ru/daily_json.js',
         handleSetCurrencyList,
       )
     } else
