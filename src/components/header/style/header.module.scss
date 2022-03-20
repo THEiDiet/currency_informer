@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background: #365a67;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    @media (max-width: 768px) {
+        height: 50px;
+    }
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    height: auto;
+    fill: #ecf3f5;
+}
+.container span {
+    color: #ecf3f5;
+    text-transform: uppercase;
+    font-weight: 500;
+}

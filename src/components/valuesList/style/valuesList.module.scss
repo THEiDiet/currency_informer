@@ -1,0 +1,23 @@
+.valuesList {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #d1e2e5;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #d1e2e5;
+    padding: 15px 10px;
+}
+.dates{
+    padding: 0 10px 15px;
+}
+.values {
+    padding: 0 10px 15px;
+}
+.valuesList td {
+    flex:0 0 10%;
+    text-align: center;
+}

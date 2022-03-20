@@ -1,0 +1,25 @@
+.tableCol {
+    flex: 0 0 20%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+}
+.tableColLower{
+    &:after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 25%;
+        border: 5px solid transparent; border-top: 15px solid #ce7979;
+    }
+}
+.tableColHigher{
+    &:after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: 25%;
+        border: 5px solid transparent; border-bottom: 15px solid #95d076;
+    }
+}

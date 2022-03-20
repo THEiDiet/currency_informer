@@ -1,0 +1,14 @@
+.tableRow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #97b2b7;
+    padding: 10px;
+    &:hover{
+        background: #dceaee;
+    }
+}
+.activeTableRow{
+    background: #dceaee;
+}
